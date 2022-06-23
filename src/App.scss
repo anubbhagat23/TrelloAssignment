@@ -1,0 +1,85 @@
+$page-background: #113753;
+$round-button: #05b4ee;
+$card-background: #d9def9;
+
+.text-center {text-align: center !important;}
+
+.trelio-header {
+  background-color: $round-button;
+  padding: 0.2rem 1rem;
+}
+
+.trello-container {
+  background-color: $page-background;
+  padding: 0 1rem;
+  position: fixed;
+  min-height: 100%;
+  width: 100%;
+
+  .trello-card {
+    position: relative;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 200px;
+    min-height: 200px;
+    background-color: $card-background;
+    box-shadow: 0 5px 0 #ccc;
+    padding: 0 1rem;
+    border-radius: 2px;
+
+    
+  }
+}
+
+.form-element {
+  margin-bottom: 0.5rem;
+  input {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 5px 0 #ccc;
+    border-radius: 3px;
+  }
+  input:focus-visible { 
+    outline: none !important;
+ }
+}
+
+.add-task {
+  margin-top: 1rem;
+  input {
+    border: 0;
+    border-bottom: 1px solid #000;
+    background: border-box;
+    margin-right: 10px;
+  }
+  input:focus-visible { 
+    outline: none !important;
+  }
+  label {
+    font-weight: 600;
+  }
+}
+
+.add-card {
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: $round-button;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.deletebtn {
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 70%;
+}
